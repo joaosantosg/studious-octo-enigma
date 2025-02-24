@@ -8,7 +8,7 @@ dotenv.config();
 const app = express();
 app.use(express.json());
 
-// Simulação de um banco de dados
+
 const users = [
     {
         id: 1,
@@ -21,7 +21,7 @@ const users = [
 app.post("/login", async (req, res) => {
     const { email, senha } = req.body;
 
-    // Check if both email and senha are provided
+
     if (!email || !senha) {
         return res.status(400).json({ error: "Email e senha são obrigatórios" });
     }
