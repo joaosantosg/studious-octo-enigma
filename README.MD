@@ -2,8 +2,13 @@
 
 Este projeto é uma atividade da disciplina de Sistemas Distribuídos, que demonstra a implementação de um simples sistema de autenticação utilizando Node.js, Express, JWT (JSON Web Tokens) e bcrypt para simulação de um banco de dados em JSON.
 
-Aluno: João Victor Guimarães  Santos
-Matrícula: 2212057
+## Alunos
+- Edwin Nichollas Rocha Medina - 2221152
+- Gabriel Homsi Gonçalves de Almeida - 2210364
+- João Victor Guimarães - 2212057
+- João Vitor Luiz - 2212349
+- Felipe Brian Marques
+
 Docente: Alvaro Bastos
 
 
@@ -41,6 +46,10 @@ O projeto consiste em um servidor Express que oferece um endpoint de login. Os u
    node index.js
    ```
 2. O servidor estará rodando na porta especificada 3000
+
+> **Nota:** O sistema já possui um usuário cadastrado para testes:
+> - Email: usuario@gmail.com
+> - Senha: 123456
 
 ## Endpoints
 
